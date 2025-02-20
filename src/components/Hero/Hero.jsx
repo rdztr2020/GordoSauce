@@ -149,9 +149,9 @@ const Hero = () => {
                 <FaFacebook className="text-2xl" />
                 </a>
               </div>
-              <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
+              {/*<div className="inline-block p-2 rounded-full cursor-pointer border border-white">
                 <FaTwitter className="2xl"/>
-              </div>
+              </div>*/}
               <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
                 <a href="https://www.instagram.com/gordomikesbbq/">
                 <FaInstagram  className="2xl"/>
