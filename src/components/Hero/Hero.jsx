@@ -80,7 +80,7 @@ const Hero = () => {
 
               {/*Orange circle section*/}
 
-              <motion.div className="h-[180px] w-[180px] absolute top-24 -right-16 border-primary border-[20px] rounded-full z-10"></motion.div>
+              <motion.div className="h-[180px] w-[180px] absolute top-24 -right-16 border-primaryDark border-[20px] rounded-full z-10"></motion.div>
 
               {/*Big Text section*/}
 
@@ -115,8 +115,8 @@ const Hero = () => {
             >
               
               <div className="relative">
-                <div className="relative z-10 space-y-4 mt-20 mb-10">
-                  <h1 className="text-3xl  font-bold">The Sauce is The Boss</h1>
+                <div className="relative z-10 space-y-4 mt-20 mb-10  ">
+                  <h1 className="text-3xl  font-bold ">The Sauce is The Boss</h1>
                   <h1 className="text-sm  leading-loose">
                   Tomato Sauce-Brown Sugar-Vinegar-Guava-Water-Worcestershire Sauce-Olive Oil-Ketchup-Salt-Pepper-Garlic-Mustard Powder-Onion Powder-Cayenne Pepper
                   </h1>
