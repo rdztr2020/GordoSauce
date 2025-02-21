@@ -38,7 +38,7 @@ const Hero = () => {
                 }}
                 className="mt-8 md:mt-16 flex items-center justify-center "
               >
-                <img src={logo} alt="" className="rounded-full h-64"/>
+                Gordo Mikes
               </motion.h1>
               */}
               <motion.div
