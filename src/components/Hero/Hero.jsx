@@ -54,8 +54,8 @@ const Hero = () => {
               >
                 <div className="relative z-10 space-y-4">
                   <h1 className="text-3xl font-bold">Gordo Mikes BBQ Sauce</h1>
-                  <h1 className="text-lg leading-loose">
-                    Just the Right Amount of Heat and Sweet !
+                  <h1 className="text-sm leading-loose">
+                    Just the Right Amount of Heat and Sweet
                   </h1>
                 </div>
                 <div className="absolute -top-6 -left-10 w-[550px] h-[190px] bg-gray-700/25"></div>
