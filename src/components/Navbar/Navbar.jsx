@@ -2,6 +2,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import {motion} from "framer-motion"
 
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({sidebar,setSidebar}) => {
   return (
     <nav className="absolute top-0 left-0 w-full pt-10 text-white z-40">
@@ -13,7 +14,7 @@ const Navbar = ({sidebar,setSidebar}) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{type:"spring",stiffness:100,damping:10,delay:0.2}} 
           className="text-2xl font-bold uppercase">
-            <span className="text-red-600">Gordo</span><span className="text-gray-200">Mikes</span> 
+            <span className="text-red-600">Gordo</span><span className="text-gray-200"> Mikes</span> 
           </motion.h1>
           {/*Hamburger Menu section*/}
           <motion.div
