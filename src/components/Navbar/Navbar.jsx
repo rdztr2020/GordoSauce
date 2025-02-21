@@ -14,7 +14,7 @@ const Navbar = ({sidebar,setSidebar}) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{type:"spring",stiffness:100,damping:10,delay:0.2}} 
           className="text-2xl font-bold uppercase">
-            <span className="text-red-600">Gordo</span><span className="text-gray-200"> Mikes</span> 
+            <span className="text-orange-700">Gordo</span><span className="text-gray-200"> Mikes</span> 
           </motion.h1>
           {/*Hamburger Menu section*/}
           <motion.div

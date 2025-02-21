@@ -53,7 +53,7 @@ const Hero = () => {
                 className="relative"
               >
                 <div className="relative z-10 space-y-4">
-                  <h1 className="text-2xl font-bold">Gordo Mikes BBQ Sauce</h1>
+                  <h1 className="text-2xl font-bold text-primary">Gordo Mikes BBQ Sauce</h1>
                   <h1 className="text-sm leading-loose">
                     Just the Right Amount of Heat and Sweet
                   </h1>
