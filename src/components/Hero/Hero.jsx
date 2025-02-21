@@ -95,7 +95,7 @@ const Hero = () => {
                 }}
                 className="absolute top-1 left-[300px] z-[1]"
               >
-                <h1 className="text-[120px] scale-100 font-bold text-darkGray/60 leading-none">
+                <h1 className="hidden text-[120px] scale-100 font-bold text-darkGray/60 leading-none">
                   Gordo Mikes
                 </h1>
               </motion.div>
