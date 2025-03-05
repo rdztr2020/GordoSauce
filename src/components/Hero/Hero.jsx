@@ -17,7 +17,7 @@ const bgImage = {
 const Hero = () => {
   const [sidebar,setSidebar] = React.useState(false);
   return (
-    <main style={bgImage}>
+    <main style={bgImage} className="max-h-[80%]">
       <section className="relative min-h-screen w-full">
         <div className="container ">
           {/* Navbar section */}
@@ -75,7 +75,7 @@ const Hero = () => {
                 }}
                 src={SauceHero}
                 alt=""
-                className="relative z-40 h-[400px] md:h-[700px] img-shadow"
+                className="relative z-40 h-[300px] md:h-[700px] img-shadow"
               />
 
               {/*Orange circle section*/}
@@ -145,15 +145,15 @@ const Hero = () => {
               <div className="w-[1px] h-[70px] bg-white"></div>
               {/*social icons*/}
               <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                <a href="https://www.facebook.com/groups/414186977978889">
+                <a href="https://www.facebook.com/groups/414186977978889" target="_blank">
                 <FaFacebook className="text-2xl" />
                 </a>
               </div>
               {/*<div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                <FaTwitter className="2xl"/>
+                <FaTwitter className="2xl" target="_blank"/>
               </div>*/}
               <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                <a href="https://www.instagram.com/gordomikesbbq/">
+                <a href="https://www.instagram.com/gordomikesbbq/" target="_blank">
                 <FaInstagram  className="2xl"/>
                 </a>
               </div>
